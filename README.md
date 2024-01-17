@@ -12,3 +12,8 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+# My Answer
+
+The mystery function recursively slices the given argument until only a single character/integer is left, and then returns the largest value in the given string/array/etc. 
+In the case of a string it will return the highest value character (generally the lower down the alphabet, the 'larger' the character)
